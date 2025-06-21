@@ -10,10 +10,18 @@
             background-color: #d5e1ef;
         }
 
+        #container{
+            border: 1px solid blue;
+            background-color: #3683fc;
+            border-radius: 16px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         img{
-            width: 95%;
-            border: black solid 1px;
-            border-radius: 18px;
+            width: 75%;
         }
 
         main{
@@ -40,8 +48,8 @@
 </head>
 <body>
     <main>
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Commons_QR_code.png" alt="">
+        <div id="container"> 
+            <img src="QR T-REX.jpg" alt="QR para acceder al Juego del Trex de CHrome">
         </div>
         <h1>Improve your front-end skills by building projects</h1>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
